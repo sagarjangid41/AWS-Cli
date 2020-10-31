@@ -13,3 +13,5 @@
 <b>aws ec2 create-volume --availbility-zone ap-south-1a --no-encrypted --size 1 </b>
 <h1> 5. Attach EBS Volume to Instance</h1>
 <b>aws ec2 attach-volume --instance-id {} --volume-id {} --device /dev/xvdf  </b>
+
+
