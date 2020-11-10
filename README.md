@@ -14,4 +14,4 @@
 <h1> 5. Attach EBS Volume to Instance</h1>
 <b>aws ec2 attach-volume --instance-id {} --volume-id {} --device /dev/xvdf  </b>
 <h1> 6. Cloud Front setup </h1>
-
+<b>aws cloudfront create-distribution  --origin-domain-name {} --default-root-object {}</b><br>
