@@ -15,3 +15,5 @@
 <b>aws ec2 attach-volume --instance-id {} --volume-id {} --device /dev/xvdf  </b>
 <h1> 6. Cloud Front setup </h1>
 <b>aws cloudfront create-distribution  --origin-domain-name {} --default-root-object {}</b><br>
+<h1> 7.Create S3 bucket </h1><br>
+ <b>aws s3api create-bucket --bucket my-bucket --region ap-south-1<b/>
